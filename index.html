@@ -4,9 +4,10 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="CSS/stylesheet.css">
-
-<script src="js/jsfile.js" ></script>
+    <!-- external CSS-->
+    <link href="CSS/stylesheet.css" rel="stylesheet" >
+<!--- java script links-->
+<script type="text/javascript" src="js/jsfile.js" ></script>
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/compressed.js"></script>
     <!-- Bootstrap CSS AND ICONS -->
@@ -68,9 +69,9 @@
         </div>
       </nav>
      
-      <div class="jumbotron">
+      <div class="jumbotron background">
         <div class="container" id="header">
-        <h2 class="display-2 h">We Offered These Services</h2>
+        <h2 class="display-2 h">We provide these services.</h2>
         <h1 class="startTyper display-1 h"> </h1>
         <br>
         <br>
@@ -97,13 +98,14 @@
   </div>
    <br>
 <br>
-<section class="services" id="services" >
+<section class="services container" id="services" >
   <div class="container Ofservices">
     <h2 class="">Offered <span>Services</span></h2>
-    <p>People do not care how much you know until they know how much you care. - Teddy Roosevelt - Paige Arnof-Fenn</p>
+    
   </div>
+  <hr class="my-5">
   <br>
-<div class="container service">
+<div class="container service gx-5 gy-5">
   <div class="row"> 
 <div class="col-4  servicelist">
   
@@ -123,42 +125,43 @@
 </div>
   </div>
 </div>
-<br>
 
-<div class="container service ">
+
+<br>
+<div class="container service gx-5 gy-5">
   <div class="row"> 
 
-<div class="col-4 col-sm-5 servicelist">
+<div class="col-4 col-sm-4 servicelist">
   <h2> <i class="bi bi-bookmark-check-fill"></i> &nbsp; Regulatory Services</h2>
 <p>Registrations / Licenses of business under various laws applicable to the entity are provided in a cost effective and hassle freeway. We provide various Registrations / Licenses like Food License (FSSAI), Trade License, Labor License, MSME Registration Etc. </p>
 <a href="" ><h6>Know More <i class="bi bi-arrow-right"></i></h6></a>
 </div>
-<div class="col-4  col-sm-5 servicelist">
+<div class="col-4  col-sm-4 servicelist">
   <h3> <i class="bi bi-bank2"></i> &nbsp; Advisory &amp; Other Services</h3>
   <p>We are specialized in this domain and provide turnkey solutions for setting up a business entity. Our services include a methodology that cares of approvals, legal compliances, and registration with authorities and other required formalities.</p>
   <a href="" ><h6>Know More <i class="bi bi-arrow-right"></i></h6></a>
 </div>
 <div class="col-4  col-sm-2  btnn">
-  <a href="#services" class="btn btn-primary" >Talk To Us</a>
+  <a href="#contact" class="btn btn-primary" >Talk To Us</a>
 </div>
   </div>
 </div>
 </section>
 <br>
-<div class=" container-fluid about" id="about">
+<div class=" container about" id="about">
 <div class=" container col">
   <h2>Who We Are</h2>
 <p>T J S M is a team of proficient and dedicated Chartered Accountants. We represent a coalition of specialized skills that is geared to offer sound financial solutions and advices. We typically handle all the branches of accounting and auditing including Accounts Outsourcing, Business Taxation, GST Consultation & Advisory, Corporate Compliance, Company Formation in India, Starting a Business in India etc.</p>
-<a class="btn btn-primary" >Know More</a>
+<a class="btn btn-primary" href="#contact" >Know More</a>
 </div>
 </div>
-<section class="whychooseus " >
+<section class="whychooseus container-fluid" >
   <div class="container whychoose ">
     <h2 class="why" >Why Choose Us</h2>
     <p class="text-center">People do not care how much you know until they know how much you care. - Teddy Roosevelt - Paige Arnof-Fenn</p>
   </div>
   <div class="container">
-    <div class="row p-2"> 
+    <div class="row p-5"> 
   
   <div class="col-lg-4  col-md-4 col-sm-4">
     <h2> <i class="bi bi-alarm-fill"></i> &nbsp; Fast Delivery</h2>
@@ -175,7 +178,7 @@
     </div>
   </div> 
  <div class="container">
-    <div class="row p-2"> 
+    <div class="row p-5"> 
   
   <div class="col-lg-4  col-md-4 col-sm-4">
     <h2> <i class="bi bi-eye-fill"></i> &nbsp; Integrity</h2>
@@ -186,7 +189,7 @@
 <p>We are always there for our customers. Rest assured, you are in safe hands.</p>
   </div>
   <div class="col-lg-4  col-md-4 col-sm-4 btnn">
-    <a href="#services" class="btn btn-primary" >Talk To Us</a>
+    <a href="#contact" class="btn btn-primary" >Talk To Us</a>
   </div>
     </div>
   </div>
@@ -196,7 +199,7 @@
 <div class="footer">
   <div class="container">
 <div class="row">
-<div class="col-lg-4  col-md-4 col-sm-6">
+<div class="col-lg-4  col-md-4 col-sm-4">
 <h3>Services</h3>
 <ul class="list-group  list-group-flush" >
   <li class="list-group-item bg-secondary">Audit & Assurance</li>
@@ -209,16 +212,40 @@
 <div class="col-lg-4  col-md-4 col-sm-6">
   <h3>Our locations</h3>
   <ul class="list-group list-group-flush">
-    <li class="list-group-item bg-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Head Office" >Vijayawada</li>
-    <li class="list-group-item bg-secondary">Ananthapuram</li>
-    <li class="list-group-item bg-secondary">Hyderabad</li>
+    <li class="list-group-item bg-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Head Office" > <strong>Vijayawada</strong>
+      <p>#54-1-7/380, 2nd Floor, Kranthi Crest Building 
+        Beside NAC KalyanaVedika, 
+        Guru Nanak Colony Road, 
+        Vijayawada – 520 008
+        Andhra Pradesh
+        </p>
+    </li>
+    <li class="list-group-item bg-secondary"> <strong>Ananthapuram</strong>
+      <p>
+        #28-3-510, 1st Cross, 
+Sarada Nagar, 
+Near Sankar Math, 
+Navodaya Colony
+Ananthapur – 515 001,
+Andhra Pradesh
+
+      </p>
+    </li>
+    <li class="list-group-item bg-secondary"><strong>Hyderabad</strong>
+      <p>F No.501, 
+        Geetika Residency, 
+        Srinagar Colony,                 
+        Hyderabad – 500 073, 
+        Telangana
+        </p>
+    </li>
     
   </ul>
   
  
   
   </div>
-  <div class="col-lg-4  col-md-4 col-sm">
+  <div class="col-lg-4  col-md-4 col-sm-2">
     <h3>Around the web</h3>
     <ul class="list-group list-group-flush">
      
@@ -230,15 +257,14 @@
   </tbody></table>
 </li>
 
-      <li class="list-group-item bg-secondary"> Email &nbsp; <a href="mailto:ca.atp@tjsm.in">ca.atp@tjsm.in</a></li>
-      <li class="list-group-item bg-secondary"> Call <a href="tel:">Phone</a></li>
+      <li class="list-group-item bg-secondary"> Email &nbsp; <a href="mailto:myca@tjsm.in">myca@tjsm.in</a></li>
+      <li class="list-group-item bg-secondary"> Call <a href="tel:9121000961">9121000961/2/3/4</a></li>
     </ul>
     </div>
 </div>
   </div>
 </div>
+<P class="text-dark container "> © tjsm.in | All rights reserved. </P>
 </footer>
-
-
 </body>
 </html>

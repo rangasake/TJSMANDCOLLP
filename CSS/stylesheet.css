@@ -3,19 +3,26 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+body {
+
+    background-color: #ffffff;
+opacity: 1;
+background-image: radial-gradient(#444cf7 0.9500000000000001px, #ffffff 0.9500000000000001px);
+background-size: 19px 19px;
+}
+
 .jumbotron{
 
     height: 650px;
-    background-image: url(images/Bg_2.jpg);
-    background-position: center center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative; 
-    margin-top: -50px;
-    box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.5);
-    /* z-index: -1; */
+    background-color: #ffffff;
+opacity: 1;
+background-image: radial-gradient(#444cf7 0.9500000000000001px, #ffffff 0.9500000000000001px);
+background-size: 19px 19px;
+       margin-top: -50px;
+
 }
+
+
 
 
 .aboutpage {
@@ -33,12 +40,17 @@ text-align: center;
     padding: 10px;
     color: #007bb8;
     font-weight: bolder;
+    
+text-shadow: 4px -4px 8px #c2c2c2,
+-4px 4px 8px #ffffff;
 }
 
 
 #header {
-color: #ffff;
-
+color: #007bb8;
+color: #ffffff;
+text-shadow: 1px -1px 6px #404040,
+-1px 1px 6px #ffffff;
 display: block;
     text-align: left;
     margin-top: 50px;
@@ -72,11 +84,22 @@ font-family: Georgia, 'Times New Roman', Times, serif;
     color: #007bb8;
 }
 
-
+.services {
+    padding: 50px;
+    margin-top: 10px;
+    position: relative;
+    background-color: #ffff;
+    box-shadow: 10px 10px 10px rgb(199, 199, 199);
+}
 
 .Ofservices{
 
     text-align: center;
+}
+
+.Ofservices h2{
+
+    font-size: 50px;
 }
 .Ofservices span {
 
@@ -85,14 +108,12 @@ font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
 }
   .about {
-
+margin: 50px;
 padding: 50px;  
-background-image: url(images/21.jpg);
-background-position: center center;
-background-attachment: fixed;
-background-repeat: no-repeat;
-background-size: cover;
-position: relative;   
+border-radius: 20px;
+background: linear-gradient(145deg, #cacaca, #f0f0f0);
+box-shadow:  11px 11px 19px #7b7b7b,
+             -11px -11px 19px #ffffff;  
   }
 
   .whoweare{
@@ -116,20 +137,14 @@ position: relative;
 } */
 
 .whychooseus{
+    padding: 50px;
     color: #ffffff;
-    padding: 30px;
-    background-image: url(images/bg-3.jpg);
-    background-position: center center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.7);
+    background: linear-gradient(90deg, #007bb8, #378fb9)
 
 }
 
 .whychooseus .why{
-    color: #007bb8;
+    color: #fff;
     font-size: 45px;
     text-align: center;
     font-weight: bold;
