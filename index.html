@@ -127,9 +127,14 @@ width: 100%;
 
 }
 
+.services{
+  padding: 50px 0px 25px 0px;
+
+}
+
 .sectors p{
 
-  font-size: 20px;
+  font-size: 15 px;
 }
 
 .sectors h2{
@@ -140,29 +145,34 @@ width: 100%;
   font-size: 16px;
 }
 
+.mobile{
+  display: none;
+}
+
 @media only screen and (max-width: 650px) {
 
   .container {
     width: 100%!important;
     max-width: none!important;
   }
-.navbar-brand img{
+.logo{
   
-  width: 50%!important;
+  width: 100%!important;
   height: 50%;
 }
 
+.navbar-toggler {
+  display: none;
+}
+
+.navbar{
+ 
+  margin-top: 0px;
+}
 .header{
   height: auto;
-  
+  padding: 10px!important;
 width: 100%;
-  background-image: url(https://ik.imagekit.io/tjsmandcollp/Web_Images/who_we_are_jAP0FMvktE.jpg?updatedAt=1638260316169);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: scroll;
-  position: relative;
-  background-position: center;
-  
 }
 
 .header h1{
@@ -172,15 +182,17 @@ width: 100%;
 }
 
 .text{
-padding: 0px;
-margin-top: 10px;
-width: 100%;
+padding: 0px!important;
+margin-top: 30px!important;
+width: 100%!important;
 }
 
-.text p{
-  padding: 0px;
-  font-size: 10px;
-  line-height: 22px!important;
+.mobile{
+  display: block;
+}
+
+.desktop{
+  display: none;
 }
 
 .text span {
@@ -188,13 +200,16 @@ width: 100%;
 
 }
 
-.text h3{
-  font-size: 15px;
+.text p{
+  font-size: 12px;
+  font-weight: 100;
+  
+  
 }
 
-.header h1{
+/* .header h1{
 font-weight: bold;
-}
+} */
 
 
 #button{
@@ -208,8 +223,17 @@ font-weight: bold;
 padding: 10px!important;
 }
 
+.services{
+  padding: 5px!important;
+}
+
 hr{
   display: none;
+}
+
+.services h3{
+
+  width: 100%;
 }
 
 #mv{
@@ -253,17 +277,21 @@ padding: 0%!important;
 
 
 
+
 }
+
+
 
     </style>
   </head>
   <body>
-    <section class="header">
-    <nav class="navbar  navbar-expand-sm navbar-light bg-transparent">
-      <div class="container">
+    <section class="header  container-fluid">
+    <nav class=" navbar  navbar-expand-lg navbar-light bg-transparent">
+      <div class="container"> 
         <a class="navbar-brand" href="https://tjsm.in/">
-          <img src="https://ik.imagekit.io/tjsmandcollp/Web_Images/logo.t-removebg-preview_iEvyswufg9F.png?updatedAt=1638604348713" width="100%" height="100px" class="img flot-start d-block" alt="logo">
+          <img src="https://ik.imagekit.io/tjsmandcollp/Web_Images/logo.t-removebg-preview_iEvyswufg9F.png?updatedAt=1638604348713" width="100%" height="100px" class="logo d-inline-block align-text-top" alt="logo">
         </a>
+      
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -302,12 +330,13 @@ padding: 0%!important;
    
     
 
-  <div class="container">
-<div class="row">
-  <div class="col-6 text">
+  <div class="container text">
+<div class="">
+  <div class="col-lg-6 ">
 <h1 class="display-1">Who We Are ?</h1>
 
-<p class="mylead p-2" style="line-height: 32px;">T J S M is a team of proficient and dedicated Chartered Accountants. We represent a coalition of specialized skills that is geared to offer sound financial solutions and advices. <br> We typically handle all the branches of accounting and auditing including &nbsp; <a href="#services" style="text-decoration: none;"> <span style="border-radius: 25px; background-color: #405673; padding: 8px; color: #fff;">Accounts Outsourcing,</span> </a>  <a  href="#services" style="text-decoration: none;" > <span style="border-radius: 25px; background-color: #405673; padding: 8px; color: #fff;">Business Taxation,</span> </a>  <a  href="#services" style="text-decoration: none;" > <span style="border-radius: 25px; background-color: #405673; padding: 8px; color: #fff;"> GST Consultation</span></a>  &amp; Advisory, Corporate Compliance, Company Formation in India, Starting a Business in India etc.</p>
+<p class="mylead p-2 desktop" style="line-height: 32px;">T J S M is a team of proficient and dedicated Chartered Accountants. We represent a coalition of specialized skills that is geared to offer sound financial solutions and advices. <br> We typically handle all the branches of accounting and auditing including &nbsp; <a href="#services" style="text-decoration: none;"> <span style="border-radius: 25px; background-color: #405673; padding: 8px; color: #fff;">Accounts Outsourcing,</span> </a>  <a  href="#services" style="text-decoration: none;" > <span style="border-radius: 25px; background-color: #405673; padding: 8px; color: #fff;">Business Taxation,</span> </a>  <a  href="#services" style="text-decoration: none;" > <span style="border-radius: 25px; background-color: #405673; padding: 8px; color: #fff;"> GST Consultation</span></a>  &amp; Advisory, Corporate Compliance, Company Formation in India, Starting a Business in India etc.</p>
+<p class="mobile">T J S M is a team of proficient and dedicated Chartered Accountants. We represent a coalition of specialized skills that is geared to offer sound financial solutions and advices. We typically handle all the branches of accounting and auditing including Accounts Outsourcing, Business Taxation, GST Consultation & Advisory, Corporate Compliance, Company Formation in India, Starting a Business in India etc.</p>
 <h3>know what services we provide.</h3>
 <br>
 <a href="#services"><img src="https://img.icons8.com/ios-glyphs/60/000000/curly-arrow--v2.png"/></a>
@@ -318,28 +347,30 @@ padding: 0%!important;
 </section>
 
 
-    <section><div class="container-fluid align-items-center  service " id="services">
-      <h1 class="text-center p-5 ">SERVICES</h1>
+    <section class="services"><div class="container-fluid align-items-center  service " id="services">
+     
+        <h1 class="text-center p-3 ">SERVICES</h1>
+     
       <hr class="my-4">
-      <div class="row text-center p-3">
+      <div class="row text-center p-4">
          <div class="col"> 
           
-    <a href="Audit&A.html"> <h2> <img src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/100/000000/external-audit-accounting-and-finance-flatart-icons-outline-flatarticons.png"/> <br>Audit &amp; Assurance</h2>   </a>
+    <a href="Audit&A.html"> <h3> <img src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/80/000000/external-audit-accounting-and-finance-flatart-icons-outline-flatarticons.png"/> <br>Audit &amp; Assurance</h3>   </a>
     
     </div>
     <div class="col"> 
-      <a href="Consultancy.html"><h2><img src="https://img.icons8.com/external-wanicon-lineal-wanicon/100/000000/external-consultation-teamwork-wanicon-lineal-wanicon.png"/> <br>Consultancy</h2> </a>
+      <a href="Consultancy.html"><h3><img src="https://img.icons8.com/external-wanicon-lineal-wanicon/80/000000/external-consultation-teamwork-wanicon-lineal-wanicon.png"/> <br>Consultancy</h3> </a>
        
       </div>
       <div class="col"> 
-        <a href="Taxation.html"> <h2><img src="https://img.icons8.com/external-itim2101-fill-itim2101/100/000000/external-tax-financial-itim2101-fill-itim2101.png"/><br> Taxation</h2> </a>  
+        <a href="Taxation.html"> <h3><img src="https://img.icons8.com/external-itim2101-fill-itim2101/80/000000/external-tax-financial-itim2101-fill-itim2101.png"/><br> Taxation</h3> </a>  
         </div>
         <div class="col"> 
-          <a href="Regulatory_Services.html"><h2> <img src="https://img.icons8.com/external-inipagistudio-mixed-inipagistudio/100/000000/external-license-manufacture-process-inipagistudio-mixed-inipagistudio.png"/> <br> Regulatory Services</h2>  </a>
+          <a href="Regulatory_Services.html"><h3> <img src="https://img.icons8.com/external-inipagistudio-mixed-inipagistudio/80/000000/external-license-manufacture-process-inipagistudio-mixed-inipagistudio.png"/> <br> Regulatory Services</h3>  </a>
            
           </div>
           <div class="col"> 
-            <a href="Advisory_and_other_services.html"> <h2> <img src="https://img.icons8.com/external-glyph-geotatah/100/000000/external-advisor-business-incubator-glyph-glyph-geotatah-2.png"/> <br> Advisory &amp; Other Services</h2>  </a>
+            <a href="Advisory_and_other_services.html"> <h3> <img src="https://img.icons8.com/external-glyph-geotatah/80/000000/external-advisor-business-incubator-glyph-glyph-geotatah-2.png"/> <br> Advisory &amp; Other Services</h3>  </a>
             
             </div>
   </div>
@@ -365,47 +396,47 @@ padding: 0%!important;
 </section>
 
 <section class="sectors p-5" id="sectors">
-  <div class="container">
+  <div class="container-fluid">
     <h2 class="text-center p-5">Our experience in industry fields has expanded.</h2>
-<div class="row gx-5 p-5 sector">
+<div class="row  p-2 sector">
   <div class="col">
-<p> <img src="https://img.icons8.com/ios-filled/100/ffffff/factory.png"/> <br> MANUFACTURING</p>
+<p> <img src="https://img.icons8.com/ios-filled/80/ffffff/factory.png"/> <br> MANUFACTURING</p>
   </div>
   <div class="col">
-    <p> <img src="https://img.icons8.com/external-justicon-lineal-justicon/100/ffffff/external-software-responsive-web-design-justicon-lineal-justicon.png"/> <br> INFORMATION TECHNOLOGY</p>
+    <p> <img src="https://img.icons8.com/external-justicon-lineal-justicon/80/ffffff/external-software-responsive-web-design-justicon-lineal-justicon.png"/> <br> INFORMATION TECHNOLOGY</p>
       </div>
       <div class="col">
-        <p> <img src="https://img.icons8.com/ios/100/ffffff/suit.png"/> <br> APPEREL</p>
+        <p> <img src="https://img.icons8.com/ios/80/ffffff/suit.png"/> <br> APPEREL</p>
           </div>
           <div class="col">
-            <p> <img src="https://img.icons8.com/ios-filled/100/ffffff/check-in-desk.png"/> <br> HOSPITALITY</p>
+            <p> <img src="https://img.icons8.com/ios-filled/80/ffffff/check-in-desk.png"/> <br> HOSPITALITY</p>
               </div>
               <div class="col">
-                <p> <img src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/100/ffffff/external-agriculture-agriculture-flatart-icons-solid-flatarticons.png"/> <br> AGRICULTURE</p>
+                <p> <img src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/80/ffffff/external-agriculture-agriculture-flatart-icons-solid-flatarticons.png"/> <br> AGRICULTURE</p>
                   </div>
                   <div class="col">
-                    <p> <img src="https://img.icons8.com/external-justicon-lineal-justicon/100/ffffff/external-university-back-to-school-justicon-lineal-justicon.png"/> <br> EDUCATION</p>
+                    <p> <img src="https://img.icons8.com/external-justicon-lineal-justicon/80/ffffff/external-university-back-to-school-justicon-lineal-justicon.png"/> <br> EDUCATION</p>
                       </div>
 
 </div>
-<div class="row gx-5 p-5 sector">
+<div class="row  p-2 sector">
   <div class="col">
-<p> <img src="https://img.icons8.com/ios-filled/100/ffffff/bank-building.png"/> <br> BANKING</p>
+<p> <img src="https://img.icons8.com/ios-filled/80/ffffff/bank-building.png"/> <br> BANKING</p>
   </div>
   <div class="col">
-    <p> <img src="https://img.icons8.com/external-itim2101-fill-itim2101/100/ffffff/external-financial-mobile-payment-itim2101-fill-itim2101.png"/> <br> FINANCIAL SERVICES</p>
+    <p> <img src="https://img.icons8.com/external-itim2101-fill-itim2101/80/ffffff/external-financial-mobile-payment-itim2101-fill-itim2101.png"/> <br> FINANCIAL</p>
       </div>
       <div class="col">
-        <p> <img src="https://img.icons8.com/ios-filled/100/ffffff/fast-moving-consumer-goods.png"/> <br> FMCG</p>
+        <p> <img src="https://img.icons8.com/ios-filled/80/ffffff/fast-moving-consumer-goods.png"/> <br> FMCG</p>
           </div>
           <div class="col">
-            <p> <img src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/100/ffffff/external-tablets-hospital-healthcare-flatart-icons-solid-flatarticons.png"/> <br> PHARMA</p>
+            <p> <img src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/80/ffffff/external-tablets-hospital-healthcare-flatart-icons-solid-flatarticons.png"/> <br> PHARMA</p>
               </div>
               <div class="col">
-                <p> <img src="https://img.icons8.com/external-wanicon-solid-wanicon/100/ffffff/external-hospital-world-humanitarian-day-wanicon-solid-wanicon.png"/> <br> HEALTHCARE</p>
+                <p> <img src="https://img.icons8.com/external-wanicon-solid-wanicon/80/ffffff/external-hospital-world-humanitarian-day-wanicon-solid-wanicon.png"/> <br> HEALTHCARE</p>
                   </div>
                   <div class="col">
-                    <p> <img src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/100/ffffff/external-car-service-car-service-kiranshastry-solid-kiranshastry.png"/> <br> AUTOMOBILE</p>
+                    <p> <img src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/80/ffffff/external-car-service-car-service-kiranshastry-solid-kiranshastry.png"/> <br> AUTOMOBILE</p>
                       </div>
 
 </div>
@@ -415,9 +446,9 @@ padding: 0%!important;
 
 
 
-<footer class="p-5 bg-secondary text-white" id="contact">
+<footer class="p-5 bg-secondary text-white container-fluid" id="contact">
   <div class="footer">
-    <div class="container">
+    <div class="container-fluid">
   <div class="row">
   <div class="col">
   <h3 class="text-dark">Services</h3>
@@ -436,7 +467,7 @@ padding: 0%!important;
         <p>#54-1-7/380, 2nd Floor, Kranthi Crest Building 
           Beside NAC KalyanaVedika, 
           Guru Nanak Colony Road, 
-          Vijayawada – 520 008
+          Vijayawada - 520 008
           Andhra Pradesh
           </p>
       </li>
@@ -446,7 +477,7 @@ padding: 0%!important;
   Sarada Nagar, 
   Near Sankar Math, 
   Navodaya Colony
-  Ananthapur – 515 001,
+  Ananthapur - 515 001,
   Andhra Pradesh
   
         </p>
@@ -455,7 +486,7 @@ padding: 0%!important;
         <p>F No.501, 
           Geetika Residency, 
           Srinagar Colony,                 
-          Hyderabad – 500 073, 
+          Hyderabad - 500 073, 
           Telangana
           </p>
       </li>
@@ -478,7 +509,7 @@ padding: 0%!important;
   </li>
   
         <li class="list-group-item bg-secondary"> Email &nbsp; <a class="text-dark" href="mailto:myca@tjsm.in">myca@tjsm.in</a></li>
-        <li class="list-group-item bg-secondary"> Call <a class="text-dark" href="tel:9121000961">9121000961/2/3/4</a></li>
+        <li class="list-group-item bg-secondary"> Call <a class="text-dark" href="tel:912 0961">9121000961/2/3/4</a></li>
       </ul>
       </div>
       <div class="col">
