@@ -1,337 +1,292 @@
-* {
 
-    font-family: Georgia, 'Times New Roman', Times, serif;
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #F5F5F5;
 }
 
-body {
-
-    background-color: #ffffff;
-opacity: 1;
-background-image: radial-gradient(#444cf7 0.9500000000000001px, #ffffff 0.9500000000000001px);
-background-size: 19px 19px;
+.navbar{
+  margin-top: -40px;
 }
 
-.jumbotron{
-
-    height: 650px;
-    background-color: #ffffff;
-opacity: 1;
-background-image: radial-gradient(#444cf7 0.9500000000000001px, #ffffff 0.9500000000000001px);
-background-size: 19px 19px;
-       margin-top: -50px;
-
+.header{
+  height: 850px;
+  padding: 50px;
+width: 100%;
+  background-image: url(https://ik.imagekit.io/tjsmandcollp/Web_Images/who_we_are_jAP0FMvktE.jpg?updatedAt=1638260316169);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
+  position: relative;
+  background-position: center;
+  
 }
 
+.header .text{
 
-
-
-.aboutpage {
-    height: 200px;
-text-align: center;
-    position: relative; 
-    box-shadow: outset 2000px 0 0 0 rgba(41, 41, 41, 0.658);
+  margin-top: 60px;
 }
 
-.aboutpage h2{
-    padding-top: 40px;
-}
-
-#header h1{
-    padding: 10px;
-    color: #007bb8;
-    font-weight: bolder;
-    
-text-shadow: 4px -4px 8px #c2c2c2,
--4px 4px 8px #ffffff;
+.header h1{
+  font-weight: bold;
+  font-size: 50px;
 }
 
 
-#header {
-color: #007bb8;
-color: #ffffff;
-text-shadow: 1px -1px 6px #404040,
--1px 1px 6px #ffffff;
-display: block;
-    text-align: left;
-    margin-top: 50px;
-    
-    padding: 50px;
-    
+
+h1{
+   font-size: clamp(1vw);
+}
+/* .col{
+  border-style: solid;
+  border-color: blue;
+} */
+i{
+
+  font-size: 5rem;
 }
 
-.jumbotron .h{
+#mv{
+  color: #000;
 
-    margin-top: 50px;
-}
-.mv{
-    margin-top: -100px;
-    /* z-index: 0; */
-    position: relative;
-    background-color: #ffff;
-    box-shadow: 1px 10px 10px rgb(199, 199, 199);
-}
-.mission {
-font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 70px;
+margin: 75px 75px; 
+
+  background: #ffffff;
+box-shadow: 4px 4px 10px #ffffff,
+-4px -4px 10px #7a7a7a;
+
+
 }
 
-.mv1 {
-    padding: 20px;
+#mv h2{
+  font-size: 55px;
+  color: #007bb8;
+  text-shadow: 1px 1px 2px #030303,
+-1px -1px 2px #ffffff;
 }
 
-.mission h2 {
-    font-size: 50px;
-    color: #007bb8;
-}
+/* .service h2{
 
-.services {
-    padding: 50px;
-    margin-top: 10px;
-    position: relative;
-    background-color: #ffff;
-    box-shadow: 10px 10px 10px rgb(199, 199, 199);
-}
-
-.Ofservices{
-
-    text-align: center;
-}
-
-.Ofservices h2{
-
-    font-size: 50px;
-}
-.Ofservices span {
-
-    color: #007bb8;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bolder;
-}
-  .about {
-margin: 50px;
-padding: 50px;  
-border-radius: 20px;
-background: linear-gradient(145deg, #cacaca, #f0f0f0);
-box-shadow:  11px 11px 19px #7b7b7b,
-             -11px -11px 19px #ffffff;  
-  }
-
-  .whoweare{
-      padding-left: 60px;
-
-     
-      
-  }
-  .whoweare h2 {
-      font-size: 40px;
-  }
-
-  .whoweare p{
-    padding: 0px 100px  0px 0px;
-  }
-
-/* .whychoose{
-
-    padding: 30px;
-    text-align: center;
+  font-size: 30px;
+  text-shadow: 1px 1px 2px #030303,
+-1px -1px 2px #ffffff;
 } */
 
-.whychooseus{
-    padding: 50px;
-    color: #ffffff;
-    background: linear-gradient(90deg, #007bb8, #378fb9)
+.service a{
+text-decoration: none;
+
+color: #000;
+text-shadow: 2px 2px 4px #ffffff,
+-1px -4px 6px #030303;
 
 }
 
-.whychooseus .why{
-    color: #fff;
-    font-size: 45px;
-    text-align: center;
-    font-weight: bold;
-}
 
-.btnn .btn{
-    top: 50%;
-    position: relative;
-    
+
+.service h1{
+  font-size: 75px;
+  color: #007bb8;
+
+text-shadow: 1px 1px 2px #030303,
+-1px -1px 2px #ffffff;
 }
 
 .footer  i{
 
-    font-size: 2em;
-    padding: 5px;
-    
+font-size: 2em;
+padding: 5px;
+
+}
+#button{
+  font-size: 40px;
+ 
 }
 
-.startTyper {
-    display: inline;
-}
-    
-#typed-cursor{
-    opacity: 1;
-    
-    font-size: 20px;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    -ms-animation: blink 0.7s infinite;
-    -o-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
+.sectors{
+height: auto;
+width: 100%;
+  background-image: url(https://ik.imagekit.io/tjsmandcollp/Web_Images/svg_gb1hz-v78.svg?updatedAt=1638260310637 );
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: #fff;
+
+
 }
 
-/* @-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-webkit-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-moz-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-ms-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-o-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-} */ 
+.services{
+  padding: 50px 0px 25px 0px;
 
-
-@media only screen and (max-width: 650px){
-
-    .navbar-brand img{
-
-        width: 100px;
-    }
-
-.jumbotron{
-    height: 250px;
 }
 
-#header {
-    padding: 5px;
+.sectors p{
+
+  font-size: 15 px;
 }
 
-#header h2{
-    font-size: 20px;
+.sectors h2{
+  font-size: 40px;
 }
 
-#header h1{
-    font-size: 25px;
+.nav-item a{
+  font-size: 16px;
 }
 
-
-
-    .mission  {   
-    width: 100%;
-    margin-left: 20px;
-   
-    padding: 1px;
-    
+.mobile{
+  display: none;
 }
 
-.mission h2 {
-
-    font-size: 35px;
+footer a{
+  text-decoration: none;
 }
 
-.mission p{
-    width: 100%;
-}
+@media only screen and (max-width: 650px) {
 
-.mv1{
-    padding: 1px;
-    width: 100%;
-    margin-right: 1px;
-   
-}
-
-.mv{
-    margin-top: 25px;
-    width: 100%;
-}
-
-.service{
-    width: 100%;
-}
-.service  .servicelist{
-
-    width: 100%;
-    padding-left: 20px;
-    
-    
-}
-
-.service .btn {
-
-    display: none;
-}
-
-.whychooseus {
-
-    width: 100%;
-    padding: 1px;
-}
-
-.whychooseus .why{
-    font-size: 35px;
-    padding-top: 15px;
-}
-
-.whychooseus .btn{
-    display: none;
-}
-
-.aboutpage{
-    height: 150px;
-}
-
-
-.sidebar1 {
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
+  .container {
+    width: 100%!important;
+    max-width: none!important;
   }
-
-  .sidebar1 a {
-    display: block;
-    color: black;
-    padding: 16px;
-    text-decoration: none;
-  }
-   
-  .sidebar1 a.active {
-    background-color: #04AA6D;
-    color: white;
-  }
+.logo{
   
-  .sidebar1 a:hover:not(.active) {
-    background-color: #555;
-    color: white;
-  }
-  
-  div.content1 {
-    margin-left: 200px;
-    padding: 1px 16px;
-    height: 1000px;
-  }
+  width: 100%!important;
+  height: 50%;
+}
+
+.navbar-toggler {
+  display: none;
+}
+
+.navbar{
+ 
+  margin-top: 0px;
+}
+.header{
+  height: auto;
+  padding: 10px!important;
+width: 100%;
+}
+
+.header h1{
+ 
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.text{
+padding: 0px!important;
+margin-top: 30px!important;
+width: 100%!important;
+}
+
+.mobile{
+  display: block;
+}
+
+.desktop{
+  display: none;
+}
+
+.text span {
+  font-size: 8px;
+
+}
+
+.text p{
+  font-size: 12px;
+  font-weight: 100;
   
   
+}
+
+/* .header h1{
+font-weight: bold;
+} */
+
+
+#button{
+  font-size: 10px!important;
+ 
+}
+
+.service h1{
+  font-size: 30px;
+  color: #007bb8;
+padding: 10px!important;
+}
+
+.services{
+  padding: 5px!important;
+}
+
+hr{
+  display: none;
+}
+
+.services h3{
+padding: 5px;
+  font-size: 22px;
+}
+
+.services .col{
+
+  width: 50%;
+  padding: 0px;
+}
+
+
+#mv{
+  color: #000;
+margin: 0%;
+ 
+padding: 0%!important;
+}
+
+#mv .mv1{
+ 
+  padding: 5%!important;
+}
+
+#mv h2{
+  padding: 0%!important;
+  margin: 0%;
+  font-size: 20px;
+  color: #007bb8;
+
+}
+
+.sectors h2{
+  font-size: 15px;
+  padding: 15px!important;
+}
+
+.sectors{
+  padding: 5px!important;
+}
+
+.sector{
+  padding: 5px!important;
+
+}
+
+.sector img{
+
+  width: 50px!important;
+}
+
+.sector p{
+  font-size: 10px!important;
+}
+
+#contact{
+  padding: 5px!important;
+}
 
 
 
 
 }
+/* @media only screen and (max-width: 350px){
+
+ 
+}
+} */
 

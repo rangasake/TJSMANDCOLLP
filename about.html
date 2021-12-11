@@ -53,13 +53,56 @@ padding: 5px;
   background-size: cover;
   position: relative;
 }
-@media only screen and (max-width: 250px){
+@media only screen and (max-width: 350px){
 
 .navbar-brand img{
 
-  width: 10%!important;
-  height: 10%!important;
+  width: 50%!important;
+  height: 50%!important;
+}
+
+.aboutpage{
+  height: 100px;
   
+}
+.aboutpage h2{
+  text-align: center; 
+  color: #fff;
+  font-weight: bolder;
+  font-size: 35px;
+  
+}
+
+.why{
+  padding: 1px!important;
+}
+
+.cteam {
+  padding: 10px!important;
+}
+
+.cteam h4{
+
+  font-size: 15px;
+}
+
+.team{
+  padding: 5px!important;
+
+}
+
+.team img{
+
+  width: 50%!important;
+}
+
+.team p{
+
+  font-size: 12px;
+  font-weight: 200;
+}
+#contact{
+  padding: 5px!important;
 }
 
 }
@@ -70,39 +113,40 @@ padding: 5px;
 
   <body>
 
-    <nav class="navbar sticky-top navbar-expand-sm navbar-light bg-white">
-      <div class="container">
-        <a class="navbar-brand" href="#home">
-          <img src="Images/logo.t.png" width="50%" height="auto" class="img" alt="logo">
+    <nav class=" navbar  navbar-expand-lg navbar-light bg-transparent">
+      <div class="container"> 
+        <a class="navbar-brand" href="https://tjsm.in/">
+          <img src="https://ik.imagekit.io/tjsmandcollp/Web_Images/logo.t-removebg-preview_iEvyswufg9F.png?updatedAt=1638604348713" width="100%" height="100px" class="logo d-inline-block align-text-top" alt="logo">
         </a>
+      
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse  justify-content-end" id="navbarNavDropdown">
           <ul class="navbar-nav ">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.html"><strong>Home</strong></a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#services" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Services
+               <strong> Services</strong>
               </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="Audit&A.html">Audit &amp; Assurance</a></li>
-                <li><a class="dropdown-item" href="Consultancy.html">Consultancy</a></li>
-                <li><a class="dropdown-item" href="Taxation.html">Taxation</a></li>
-                <li><a class="dropdown-item" href="Regulatory_Services.html">Regulatory Services</a></li>
-                <li><a class="dropdown-item" href="Advisory_and_other_services.html">Advisory &amp; Other Services</a></li>
+              <ul class="dropdown-menu bg-light" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="Audit&A.html"><strong>Audit &amp; Assurance</strong></a></li>
+                <li><a class="dropdown-item" href="Consultancy.html"><strong>Consultancy</strong></a></li>
+                <li><a class="dropdown-item" href="Taxation.html"><strong>Taxation</strong></a></li>
+                <li><a class="dropdown-item" href="Regulatory_Services.html"><strong>Regulatory Services</strong></a></li>
+                <li><a class="dropdown-item" href="Advisory_and_other_services.html"><strong>Advisory &amp; Other Services</strong></a></li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#sectors">Industries</a>
+              <a class="nav-link" href="index.html#sectors"><strong>Industries</strong></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link" href="about.html"><strong>About</strong></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link" href="#contact"><strong>Contact</strong></a>
             </li>
             
           </ul>
@@ -118,26 +162,26 @@ padding: 5px;
   </div>
       </section>
 
-      <section class="container-fluid">
+      <section class="container-fluid why">
         <div class="container p-4">
           <h2 class="">Why Choose Us ?</h2>
           <p>The organization is a congregation of professionally qualified and experienced persons who are committed to add value and optimize the benefits accruing to clients with their skill and efficiency. We are here to offer you:</p></div>
         <div class="container p-3 bg-white"> 
 
         
-          <div class="row">
+          <div class="row values">
             <h2 class="p-3 display-5"> Values:</h2>
-<div class="col">
+<div class="col-md-4 ">
   <h4>Fast Delivery</h4>
   <p>We have a knack of meeting deadlines all the time. Our internal processes are designed to provide Quality Services at Lightning Speed.</p>
 
 </div>
-<div class="col">
+<div class="col-md-4">
   <h4>Efficient Services</h4>
   <p>Our services are designed to incorporate in your business in the simplest and fastest manner with Innovative solutions to make things simpler.</p>
 
 </div>
-<div class="col">
+<div class="col-md-4">
   <h4>Greater Business Value</h4>
   <p>We only provide customized solutions that can bring great value to a business to ensure that you get the best based on individual clients.</p>
 
@@ -145,17 +189,17 @@ padding: 5px;
 
         </div>
         <div class="row">
-          <div class="col">
+          <div class="col-md-4">
             <h4>Integrity</h4>
             <p>We maintain business transitions that are transparent along with a fresh and practical approach to our clients’ tax and account maintenance planning.</p>
           
           </div>
-          <div class="col">
+          <div class="col-md-4">
             <h4>Around the clock support</h4>
             <p>We are always there for our customers. Rest assured, you are in safe hands.</p>
           
           </div>
-          <div class="col">
+          <div class="col-md-4">
             <!-- <h4>Greater Business Value</h4>
             <p>We only provide customized solutions that can bring great value to a business to ensure that you get the best based on individual clients.</p> -->
           
@@ -179,7 +223,7 @@ padding: 5px;
 
 
       <section class="team container p-4">
-        <div class="row  gy-5">
+        <div class="row  g">
         <div class="col-sm-2">
         
           <img src="https://ik.imagekit.io/tjsmandcollp/Web_Images/Team/Janaki_PW3Bt_SrTMW.png?updatedAt=1638427182454" class="img-fluid img-thumbnail rounded float-start">
@@ -229,28 +273,36 @@ padding: 5px;
         </div>
         </section>
 
-        <footer class="p-5 bg-secondary text-white" id="contact">
+        <footer class="p-5 bg-secondary text-white container-fluid" id="contact">
           <div class="footer">
-            <div class="container">
+            <div class="container-fluid">
           <div class="row">
-          <div class="col">
+          <div class="col-md-4">
           <h3 class="text-dark">Services</h3>
           <ul class="list-group  list-group-flush" >
-            <li class="list-group-item bg-secondary">Audit & Assurance</li>
-            <li class="list-group-item bg-secondary">Consultancy</li>
-            <li class="list-group-item bg-secondary">Taxation</li>
-            <li class="list-group-item bg-secondary">Regulatory Services</li>
-            <li class="list-group-item bg-secondary">Advisory &amp; Other Services</li>
+          <li class="list-group-item bg-secondary"><a class="text-dark" href="">Audit &amp; Assurance</a></li>
+            <li class="list-group-item bg-secondary"><a  class="text-dark" href="">Consultancy</a></li>
+            <li class="list-group-item bg-secondary"><a class="text-dark" href="">Taxation</a></li>
+            <li class="list-group-item bg-secondary"><a class="text-dark" href="">Regulatory Services</a></li>
+            <li class="list-group-item bg-secondary"><a class="text-dark" href="">Advisory &amp; Other Services</a></li>
+          </ul>
+          <h3 class="text-dark">Company</h3>
+          <ul class="list-group  list-group-flush" >
+            <li class="list-group-item bg-secondary"><a class="text-dark" href="" >About Us</a></li>
+            <li class="list-group-item bg-secondary">Careers</li>
+            <li class="list-group-item bg-secondary"> Email:- &nbsp; <a class="text-dark" href="mailto:myca@tjsm.in">myca@tjsm.in</a></li>
+                <li class="list-group-item bg-secondary"> Call:- <a class="text-dark" href="tel:9121000961">9121000961/2/3/4</a></li>
+            
           </ul>
           </div>
-          <div class="col">
+          <div class="col-md-4">
             <h3 class="text-dark" >Our locations</h3>
             <ul class="list-group list-group-flush">
               <li class="list-group-item bg-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Head Office" > <strong>Vijayawada</strong>
                 <p>#54-1-7/380, 2nd Floor, Kranthi Crest Building 
                   Beside NAC KalyanaVedika, 
                   Guru Nanak Colony Road, 
-                  Vijayawada – 520 008
+                  Vijayawada - 520 008
                   Andhra Pradesh
                   </p>
               </li>
@@ -260,7 +312,7 @@ padding: 5px;
           Sarada Nagar, 
           Near Sankar Math, 
           Navodaya Colony
-          Ananthapur – 515 001,
+          Ananthapur - 515 001,
           Andhra Pradesh
           
                 </p>
@@ -269,7 +321,7 @@ padding: 5px;
                 <p>F No.501, 
                   Geetika Residency, 
                   Srinagar Colony,                 
-                  Hyderabad – 500 073, 
+                  Hyderabad - 500 073, 
                   Telangana
                   </p>
               </li>
@@ -279,27 +331,11 @@ padding: 5px;
            
             
             </div>
-            <div class="col">
-              <h3 class="text-dark" >Around the web</h3>
-              <ul class="list-group list-group-flush">
-               
-          <li class="list-group-item bg-secondary" >
-            <table class="footert"><tbody><tr><i class="bi bi-facebook"></i></tr> 
-              <tr><i class="bi bi-twitter"></i></tr>
-              <tr><i class="bi bi-linkedin"></i></i></tr>
-              <tr><i class="bi bi-instagram"></i></i></tr>
-            </tbody></table>
-          </li>
-          
-                <li class="list-group-item bg-secondary"> Email &nbsp; <a class="text-dark" href="mailto:myca@tjsm.in">myca@tjsm.in</a></li>
-                <li class="list-group-item bg-secondary"> Call <a class="text-dark" href="tel:9121000961">9121000961/2/3/4</a></li>
-              </ul>
-              </div>
-              <div class="col">
+            
+              <div class="col-md-4">
                 <h3 class="text-dark">Contact Us</h3>
                 
-                <form>
-                    <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/shell.js"></script>
+                <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/shell.js"></script>
         <script>
           hbspt.forms.create({
           region: "eu1",
@@ -307,15 +343,16 @@ padding: 5px;
           formId: "3ae986db-5a1b-4094-b2bd-3772454123b5"
         });
         </script>
-                  </form>
+          
         
               </div>
           </div>
             </div>
           </div>
-          <P class="text-dark container "> © tjsm.in | All rights reserved. </P>
+          <P class="text-dark text-center container "> © tjsm.in | All rights reserved. </P>
           </footer>
-          <!-- Start of HubSpot Embed Code -->
+        
+         <!-- Start of HubSpot Embed Code -->
         <script type="text/javascript" id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/25328918.js"></script>
         <!-- End of HubSpot Embed Code -->
 
