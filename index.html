@@ -149,6 +149,10 @@ width: 100%;
   display: none;
 }
 
+footer a{
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 650px) {
 
   .container {
@@ -232,9 +236,16 @@ hr{
 }
 
 .services h3{
-
-  width: 100%;
+padding: 5px;
+  font-size: 22px;
 }
+
+.services .col{
+
+  width: 50%;
+  padding: 0px;
+}
+
 
 #mv{
   color: #000;
@@ -258,7 +269,11 @@ padding: 0%!important;
 
 .sectors h2{
   font-size: 15px;
-  padding: 0px!important;
+  padding: 15px!important;
+}
+
+.sectors{
+  padding: 5px!important;
 }
 
 .sector{
@@ -275,7 +290,9 @@ padding: 0%!important;
   font-size: 10px!important;
 }
 
-
+#contact{
+  padding: 5px!important;
+}
 
 
 }
@@ -453,11 +470,17 @@ padding: 0%!important;
   <div class="col">
   <h3 class="text-dark">Services</h3>
   <ul class="list-group  list-group-flush" >
-    <li class="list-group-item bg-secondary">Audit & Assurance</li>
-    <li class="list-group-item bg-secondary">Consultancy</li>
-    <li class="list-group-item bg-secondary">Taxation</li>
-    <li class="list-group-item bg-secondary">Regulatory Services</li>
-    <li class="list-group-item bg-secondary">Advisory &amp; Other Services</li>
+  <li class="list-group-item bg-secondary"><a class="text-dark" href="">Audit &amp; Assurance</a></li>
+    <li class="list-group-item bg-secondary"><a  class="text-dark" href="">Consultancy</a></li>
+    <li class="list-group-item bg-secondary"><a class="text-dark" href="">Taxation</a></li>
+    <li class="list-group-item bg-secondary"><a class="text-dark" href="">Regulatory Services</a></li>
+    <li class="list-group-item bg-secondary"><a class="text-dark" href="">Advisory &amp; Other Services</a></li>
+  </ul>
+  <h3 class="text-dark">Company</h3>
+  <ul class="list-group  list-group-flush" >
+    <li class="list-group-item bg-secondary"><a class="text-dark" href="" >About Us</a></li>
+    <li class="list-group-item bg-secondary">Careers</li>
+    
   </ul>
   </div>
   <div class="col">
@@ -508,15 +531,14 @@ padding: 0%!important;
     </tbody></table>
   </li>
   
-        <li class="list-group-item bg-secondary"> Email &nbsp; <a class="text-dark" href="mailto:myca@tjsm.in">myca@tjsm.in</a></li>
-        <li class="list-group-item bg-secondary"> Call <a class="text-dark" href="tel:912 0961">9121000961/2/3/4</a></li>
+        <li class="list-group-item bg-secondary"> Email:- &nbsp; <a class="text-dark" href="mailto:myca@tjsm.in">myca@tjsm.in</a></li>
+        <li class="list-group-item bg-secondary"> Call:- <a class="text-dark" href="tel:9121000961">9121000961/2/3/4</a></li>
       </ul>
       </div>
-      <div class="col">
+      <div class="col p-3">
         <h3 class="text-dark">Contact Us</h3>
         
-        <form>
-            <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/shell.js"></script>
+        <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/shell.js"></script>
 <script>
   hbspt.forms.create({
 	region: "eu1",
@@ -524,7 +546,7 @@ padding: 0%!important;
 	formId: "3ae986db-5a1b-4094-b2bd-3772454123b5"
 });
 </script>
-          </form>
+  
 
       </div>
   </div>
@@ -532,7 +554,7 @@ padding: 0%!important;
   </div>
   <P class="text-dark container "> © tjsm.in | All rights reserved. </P>
   </footer>
-  <!-- Start of HubSpot Embed Code -->
+ <!-- Start of HubSpot Embed Code -->
 <script type="text/javascript" id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/25328918.js"></script>
 <!-- End of HubSpot Embed Code -->
   </body>
