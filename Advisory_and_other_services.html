@@ -4,6 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://ik.imagekit.io/tjsmandcollp/Web_Images/ca_oM7LVJcZUf.png?updatedAt=1639312033267">
     <!-- external CSS-->
     <link href="CSS/stylesheet.css" rel="styleshet" >
 
@@ -39,6 +40,48 @@ body{
   margin-top: -50px;
 }
 
+footer a{
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 650px){
+
+  .aboutpage h2{
+    
+  font-weight: bolder;
+  font-size: 20px;
+  padding: 1px!important;
+  }
+
+  .aboutpage{
+    height: 100px!important;
+    padding: 0px!important;
+  }
+
+.BCS div{
+  padding: 15px!important;
+}
+
+.HSF{
+  display: none!important;
+}
+
+#contact{
+  padding: 5px!important;
+}
+
+}
+
+@media only screen and (max-width: 360px){
+
+ .navbar-brand{
+  width: 65%!important;
+  height: auto!important;
+}
+
+
+}
+
 
 </style>
   </head>
@@ -46,8 +89,8 @@ body{
   <body>
     <nav class="navbar sticky-top navbar-expand-sm navbar-light bg-white">
       <div class="container">
-        <a class="navbar-brand" href="#home">
-          <img src="Images/logo.t.png" width="100%" height="100px" class="img flot-start d-block" alt="logo">
+        <a class="navbar-brand" href="index.html">
+          <img src="https://ik.imagekit.io/tjsmandcollp/Web_Images/logo.t-removebg-preview_iEvyswufg9F.png?updatedAt=1638604348713" width="100%" height="100px" class="img flot-start d-block" alt="logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -55,7 +98,7 @@ body{
         <div class="collapse navbar-collapse  justify-content-end" id="navbarNavDropdown">
           <ul class="navbar-nav ">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#services" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -73,7 +116,7 @@ body{
               <a class="nav-link" href="https://tjsm.in/#sectors">Industries</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
@@ -91,7 +134,7 @@ body{
       
       </div>
       </section>
-<section class="container">
+<section class="container BCS">
 <div class="p-5"> 
   <h3>Business Consultancy Services</h3>
 <p>We are specialized in this domain and provide turnkey solutions for setting up a business entity. Our services include a methodology that cares of approvals, legal compliances, and registration with authorities and other required formalities. </p> &nbsp;
@@ -101,7 +144,7 @@ body{
 </div>
 
 </section>
-    
+    <br>
       <section class="container accord">
         <div class="row">
 
@@ -160,7 +203,7 @@ body{
           
           
         </div>
-        <div class="col-sm-4 p-2 col-12">
+        <div class="col-sm-4 p-2 col-12 HSF">
           <h2>Contact Us</h2>
         
         <form>
@@ -180,28 +223,36 @@ body{
 
   
 
-      <footer class="p-5 bg-secondary text-white" id="contact">
+      <footer class="p-5 bg-secondary text-white container-fluid" id="contact">
         <div class="footer">
-          <div class="container">
+          <div class="container-fluid">
         <div class="row">
-        <div class="col">
+        <div class="col-md-4">
         <h3 class="text-dark">Services</h3>
         <ul class="list-group  list-group-flush" >
-          <li class="list-group-item bg-secondary">Audit & Assurance</li>
-          <li class="list-group-item bg-secondary">Consultancy</li>
-          <li class="list-group-item bg-secondary">Taxation</li>
-          <li class="list-group-item bg-secondary">Regulatory Services</li>
-          <li class="list-group-item bg-secondary">Advisory &amp; Other Services</li>
+        <li class="list-group-item bg-secondary"><a class="text-dark" href="Audit&A.html">Audit &amp; Assurance</a></li>
+          <li class="list-group-item bg-secondary"><a  class="text-dark" href="Consultancy.html">Consultancy</a></li>
+          <li class="list-group-item bg-secondary"><a class="text-dark" href="Taxation.html">Taxation</a></li>
+          <li class="list-group-item bg-secondary"><a class="text-dark" href="Regulatory_Services.html">Regulatory Services</a></li>
+          <li class="list-group-item bg-secondary"><a class="text-dark" href="Advisory_and_other_services.html">Advisory &amp; Other Services</a></li>
+        </ul>
+        <h3 class="text-dark">Company</h3>
+        <ul class="list-group  list-group-flush" >
+          <li class="list-group-item bg-secondary"><a class="text-dark" href="about.html" >About Us</a></li>
+          <li class="list-group-item bg-secondary">Careers</li>
+          <li class="list-group-item bg-secondary"> Email:- &nbsp; <a class="text-dark" href="mailto:myca@tjsm.in">myca@tjsm.in</a></li>
+              <li class="list-group-item bg-secondary"> Call:- <a class="text-dark" href="tel:9121000961">9121000961/2/3/4</a></li>
+          
         </ul>
         </div>
-        <div class="col">
+        <div class="col-md-4">
           <h3 class="text-dark" >Our locations</h3>
           <ul class="list-group list-group-flush">
             <li class="list-group-item bg-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Head Office" > <strong>Vijayawada</strong>
               <p>#54-1-7/380, 2nd Floor, Kranthi Crest Building 
                 Beside NAC KalyanaVedika, 
                 Guru Nanak Colony Road, 
-                Vijayawada – 520 008
+                Vijayawada - 520 008
                 Andhra Pradesh
                 </p>
             </li>
@@ -211,7 +262,7 @@ body{
         Sarada Nagar, 
         Near Sankar Math, 
         Navodaya Colony
-        Ananthapur – 515 001,
+        Ananthapur - 515 001,
         Andhra Pradesh
         
               </p>
@@ -220,7 +271,7 @@ body{
               <p>F No.501, 
                 Geetika Residency, 
                 Srinagar Colony,                 
-                Hyderabad – 500 073, 
+                Hyderabad - 500 073, 
                 Telangana
                 </p>
             </li>
@@ -230,26 +281,25 @@ body{
          
           
           </div>
-          <div class="col">
-            <h3 class="text-dark" >Around the web</h3>
-            <ul class="list-group list-group-flush">
-             
-        <li class="list-group-item bg-secondary" >
-          <table class="footert"><tbody><tr><i class="bi bi-facebook"></i></tr> 
-            <tr><i class="bi bi-twitter"></i></tr>
-            <tr><i class="bi bi-linkedin"></i></i></tr>
-            <tr><i class="bi bi-instagram"></i></i></tr>
-          </tbody></table>
-        </li>
+          
+            <div class="col-md-4">
+              <h3 class="text-dark">Contact Us</h3>
+              
+              <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/shell.js"></script>
+      <script>
+        hbspt.forms.create({
+        region: "eu1",
+        portalId: "25328918",
+        formId: "3ae986db-5a1b-4094-b2bd-3772454123b5"
+      });
+      </script>
         
-              <li class="list-group-item bg-secondary"> Email &nbsp; <a class="text-dark" href="mailto:myca@tjsm.in">myca@tjsm.in</a></li>
-              <li class="list-group-item bg-secondary"> Call <a class="text-dark" href="tel:9121000961">9121000961/2/3/4</a></li>
-            </ul>
+      
             </div>
         </div>
           </div>
         </div>
-        <P class="text-dark container "> © tjsm.in | All rights reserved. </P>
+        <P class="text-dark text-center container "> © tjsm.in | All rights reserved. </P>
         </footer>
         <!-- Start of HubSpot Embed Code -->
 <script type="text/javascript" id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/25328918.js"></script>
